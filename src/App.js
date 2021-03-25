@@ -37,7 +37,7 @@ function App() {
       ).subscribe({
 
         next: () => {
-          let text = `${hr < 10 ? '0' + hr : hr}: ${min < 10 ? '0' + min : min}: ${sec < 10 ? '0' + sec : sec}:`
+          let text = `${hr < 10 ? '0' + hr : hr}: ${min < 10 ? '0' + min : min}: ${sec < 10 ? '0' + sec : sec}`
           //console.log(text)
           setState({...state, time1:text})
         },
