@@ -50,7 +50,7 @@ function App() {
       min = 0
       sec = 0
       hr = 0
-      let text = `${hr < 10 ? '0' + hr : hr}: ${min < 10 ? '0' + min : min}: ${sec < 10 ? '0' + sec : sec}:`
+      let text = `${hr < 10 ? '0' + hr : hr}: ${min < 10 ? '0' + min : min}: ${sec < 10 ? '0' + sec : sec}`
       setState({...state, time1:text})
     }
 
