@@ -26,7 +26,7 @@ function App() {
       start = true
       wait = false
 
-      seconds$ = timer(0, 20).pipe(
+      seconds$ = timer(0, 1000).pipe(
         map(() => {
           sec++
           if (sec > 59) {sec = 0; min++}
